@@ -527,7 +527,7 @@
             Links.Add(blciTemas);
             MaximizeBox = false;
             MaximumSize = new System.Drawing.Size(711, 334);
-            MinimumSize = new System.Drawing.Size(711, 334);
+            MinimumSize = new System.Drawing.Size(136, 39);
             Name = "frmPrincipal";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "vsHelp";

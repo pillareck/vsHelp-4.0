@@ -25,6 +25,7 @@ namespace vsHelp
         public frmPrincipal()
         {
             InitializeComponent();
+            txtSenha.Properties.PasswordChar = '*';
         }
 
         private void btnSair_Click(object sender, EventArgs e)
@@ -55,9 +56,6 @@ namespace vsHelp
             skin.LookAndFeel.SetSkinStyle(Configuracoes.Default.NomeSkin, Configuracoes.Default.PaletaSkin);
             skin.LookAndFeel.UseDefaultLookAndFeel = true;
             #endregion
-
-            MessageBox.Show(configFile.Read("Servidor", "PasswordServidor"));
-            MessageBox.Show(Criptografia.DeCriptSenha(configFile.Read("Servidor", "PasswordServidor")));
         }
 
         private void Watcher_Changed(object sender, FileSystemEventArgs e)

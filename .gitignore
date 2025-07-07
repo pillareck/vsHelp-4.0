@@ -1,0 +1,12 @@
+# Pastas de build
+[Bb]in
+[Oo]bj
+
+# Pastas e arquivos do Visual Studio
+.vs
+.suo
+.user
+.sln.docstates
+.bak
+.pyc
+.DS_Store
