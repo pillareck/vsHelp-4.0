@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="vsHelp.Properties" GeneratedClassName="Configuracoes">
+  <Profiles />
+  <Settings>
+    <Setting Name="NomeSkin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">The Bezier</Value>
+    </Setting>
+    <Setting Name="PaletaSkin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ghost Shark</Value>
+    </Setting>
+    <Setting Name="UltimaTela" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UltimaPasta" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

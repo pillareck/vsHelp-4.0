@@ -1,0 +1,462 @@
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\vsHelp.exe
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\vsHelp.dll.config
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\vsHelp.deps.json
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\vsHelp.runtimeconfig.json
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\vsHelp.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\vsHelp.pdb
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraCharts.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Charts.v24.1.Core.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.CodeParser.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Data.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Data.Desktop.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.DataAccess.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.DataAccess.v24.1.UI.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.DataVisualization.v24.1.Core.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Diagram.v24.1.Core.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Drawing.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraGauges.v24.1.Core.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Images.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Map.v24.1.Core.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Mvvm.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Office.v24.1.Core.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Pdf.v24.1.Core.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Pdf.v24.1.Drawing.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.PivotGrid.v24.1.Core.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Printing.v24.1.Core.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraReports.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.RichEdit.v24.1.Core.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.RichEdit.v24.1.Export.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraScheduler.v24.1.Core.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraScheduler.v24.1.Core.Desktop.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Sparkline.v24.1.Core.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.SpellChecker.v24.1.Core.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Spreadsheet.v24.1.Core.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraTreeMap.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.TreeMap.v24.1.Core.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Utils.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Utils.v24.1.UI.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraNavBar.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraWizard.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraCharts.v24.1.Extensions.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraCharts.v24.1.UI.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraCharts.v24.1.Wizard.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraDiagram.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraDialogs.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Dialogs.v24.1.Core.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraGantt.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraGauges.v24.1.Presets.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraGauges.v24.1.Win.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraGrid.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraMap.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraBars.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraEditors.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraLayout.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraPdfViewer.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraPivotGrid.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraPrinting.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraReports.v24.1.Extensions.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraRichEdit.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraScheduler.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraScheduler.v24.1.Extensions.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraScheduler.v24.1.Reporting.Extensions.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraScheduler.v24.1.Reporting.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraSpellChecker.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraSpreadsheet.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraTreeList.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraTreeMap.v24.1.UI.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraVerticalGrid.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Xpo.v24.1.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\Microsoft.Toolkit.Uwp.Notifications.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\MySqlConnector.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\SharpCompress.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\System.Data.SqlClient.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\System.ServiceModel.Http.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\System.ServiceModel.NetFramingBase.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\System.ServiceModel.NetTcp.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\System.ServiceModel.Primitives.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ZstdSharp.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\cs\System.ServiceModel.Http.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\de\System.ServiceModel.Http.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\es\System.ServiceModel.Http.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\fr\System.ServiceModel.Http.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\it\System.ServiceModel.Http.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ja\System.ServiceModel.Http.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ko\System.ServiceModel.Http.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\pl\System.ServiceModel.Http.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\pt-BR\System.ServiceModel.Http.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ru\System.ServiceModel.Http.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\tr\System.ServiceModel.Http.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\zh-Hans\System.ServiceModel.Http.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\zh-Hant\System.ServiceModel.Http.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\cs\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\de\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\es\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\fr\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\it\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ja\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ko\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\pl\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\pt-BR\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ru\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\tr\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\zh-Hans\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\zh-Hant\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\cs\System.ServiceModel.NetTcp.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\de\System.ServiceModel.NetTcp.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\es\System.ServiceModel.NetTcp.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\fr\System.ServiceModel.NetTcp.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\it\System.ServiceModel.NetTcp.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ja\System.ServiceModel.NetTcp.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ko\System.ServiceModel.NetTcp.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\pl\System.ServiceModel.NetTcp.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\pt-BR\System.ServiceModel.NetTcp.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ru\System.ServiceModel.NetTcp.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\tr\System.ServiceModel.NetTcp.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\zh-Hans\System.ServiceModel.NetTcp.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\zh-Hant\System.ServiceModel.NetTcp.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\cs\System.ServiceModel.Primitives.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\de\System.ServiceModel.Primitives.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\es\System.ServiceModel.Primitives.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\fr\System.ServiceModel.Primitives.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\it\System.ServiceModel.Primitives.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ja\System.ServiceModel.Primitives.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ko\System.ServiceModel.Primitives.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\pl\System.ServiceModel.Primitives.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\pt-BR\System.ServiceModel.Primitives.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ru\System.ServiceModel.Primitives.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\tr\System.ServiceModel.Primitives.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\zh-Hans\System.ServiceModel.Primitives.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\zh-Hant\System.ServiceModel.Primitives.resources.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\runtimes\win-arm64\native\sni.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\runtimes\win-x64\native\sni.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\runtimes\win-x86\native\sni.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\Microsoft.Windows.SDK.NET.dll
+C:\Users\franzen\source\repos\vsHelp\bin\Release\net8.0-windows10.0.22621.0\WinRT.Runtime.dll
+C:\Users\franzen\source\repos\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.csproj.AssemblyReference.cache
+C:\Users\franzen\source\repos\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.frmPrincipal.resources
+C:\Users\franzen\source\repos\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.Properties.Resources.resources
+C:\Users\franzen\source\repos\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.csproj.GenerateResource.cache
+C:\Users\franzen\source\repos\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\franzen\source\repos\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.AssemblyInfoInputs.cache
+C:\Users\franzen\source\repos\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.AssemblyInfo.cs
+C:\Users\franzen\source\repos\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.csproj.CoreCompileInputs.cache
+C:\Users\franzen\source\repos\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.csproj.Up2Date
+C:\Users\franzen\source\repos\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.dll
+C:\Users\franzen\source\repos\vsHelp\obj\Release\net8.0-windows10.0.22621.0\refint\vsHelp.dll
+C:\Users\franzen\source\repos\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.pdb
+C:\Users\franzen\source\repos\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.genruntimeconfig.cache
+C:\Users\franzen\source\repos\vsHelp\obj\Release\net8.0-windows10.0.22621.0\ref\vsHelp.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\vsHelp.exe
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\vsHelp.dll.config
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\vsHelp.deps.json
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\vsHelp.runtimeconfig.json
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\vsHelp.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\vsHelp.pdb
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraCharts.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Charts.v24.1.Core.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.CodeParser.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Data.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Data.Desktop.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.DataAccess.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.DataAccess.v24.1.UI.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.DataVisualization.v24.1.Core.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Diagram.v24.1.Core.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Drawing.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraGauges.v24.1.Core.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Images.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Map.v24.1.Core.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Mvvm.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Office.v24.1.Core.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Pdf.v24.1.Core.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Pdf.v24.1.Drawing.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.PivotGrid.v24.1.Core.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Printing.v24.1.Core.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraReports.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.RichEdit.v24.1.Core.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.RichEdit.v24.1.Export.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraScheduler.v24.1.Core.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraScheduler.v24.1.Core.Desktop.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Sparkline.v24.1.Core.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.SpellChecker.v24.1.Core.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Spreadsheet.v24.1.Core.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraTreeMap.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.TreeMap.v24.1.Core.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Utils.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Utils.v24.1.UI.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraNavBar.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraWizard.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraCharts.v24.1.Extensions.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraCharts.v24.1.UI.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraCharts.v24.1.Wizard.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraDiagram.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraDialogs.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Dialogs.v24.1.Core.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraGantt.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraGauges.v24.1.Presets.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraGauges.v24.1.Win.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraGrid.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraMap.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraBars.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraEditors.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraLayout.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraPdfViewer.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraPivotGrid.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraPrinting.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraReports.v24.1.Extensions.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraRichEdit.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraScheduler.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraScheduler.v24.1.Extensions.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraScheduler.v24.1.Reporting.Extensions.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraScheduler.v24.1.Reporting.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraSpellChecker.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraSpreadsheet.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraTreeList.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraTreeMap.v24.1.UI.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraVerticalGrid.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Xpo.v24.1.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\Microsoft.Extensions.DependencyInjection.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\Microsoft.Extensions.ObjectPool.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\Microsoft.Toolkit.Uwp.Notifications.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\MySqlConnector.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\SharpCompress.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\System.Data.SqlClient.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\System.ServiceModel.Http.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\System.ServiceModel.NetFramingBase.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\System.ServiceModel.NetTcp.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\System.ServiceModel.Primitives.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ZstdSharp.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\cs\System.ServiceModel.Http.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\de\System.ServiceModel.Http.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\es\System.ServiceModel.Http.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\fr\System.ServiceModel.Http.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\it\System.ServiceModel.Http.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ja\System.ServiceModel.Http.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ko\System.ServiceModel.Http.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\pl\System.ServiceModel.Http.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\pt-BR\System.ServiceModel.Http.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ru\System.ServiceModel.Http.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\tr\System.ServiceModel.Http.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\zh-Hans\System.ServiceModel.Http.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\zh-Hant\System.ServiceModel.Http.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\cs\System.ServiceModel.NetFramingBase.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\de\System.ServiceModel.NetFramingBase.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\es\System.ServiceModel.NetFramingBase.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\fr\System.ServiceModel.NetFramingBase.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\it\System.ServiceModel.NetFramingBase.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ja\System.ServiceModel.NetFramingBase.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ko\System.ServiceModel.NetFramingBase.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\pl\System.ServiceModel.NetFramingBase.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\pt-BR\System.ServiceModel.NetFramingBase.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ru\System.ServiceModel.NetFramingBase.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\tr\System.ServiceModel.NetFramingBase.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\zh-Hans\System.ServiceModel.NetFramingBase.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\zh-Hant\System.ServiceModel.NetFramingBase.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\cs\System.ServiceModel.NetTcp.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\de\System.ServiceModel.NetTcp.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\es\System.ServiceModel.NetTcp.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\fr\System.ServiceModel.NetTcp.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\it\System.ServiceModel.NetTcp.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ja\System.ServiceModel.NetTcp.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ko\System.ServiceModel.NetTcp.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\pl\System.ServiceModel.NetTcp.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\pt-BR\System.ServiceModel.NetTcp.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ru\System.ServiceModel.NetTcp.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\tr\System.ServiceModel.NetTcp.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\zh-Hans\System.ServiceModel.NetTcp.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\zh-Hant\System.ServiceModel.NetTcp.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\cs\System.ServiceModel.Primitives.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\de\System.ServiceModel.Primitives.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\es\System.ServiceModel.Primitives.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\fr\System.ServiceModel.Primitives.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\it\System.ServiceModel.Primitives.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ja\System.ServiceModel.Primitives.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ko\System.ServiceModel.Primitives.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\pl\System.ServiceModel.Primitives.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\pt-BR\System.ServiceModel.Primitives.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\ru\System.ServiceModel.Primitives.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\tr\System.ServiceModel.Primitives.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\zh-Hans\System.ServiceModel.Primitives.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\zh-Hant\System.ServiceModel.Primitives.resources.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\runtimes\win-arm64\native\sni.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\runtimes\win-x64\native\sni.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\runtimes\win-x86\native\sni.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\Microsoft.Windows.SDK.NET.dll
+D:\vsHelp\bin\Release\net8.0-windows10.0.22621.0\WinRT.Runtime.dll
+D:\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.csproj.AssemblyReference.cache
+D:\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.frmPrincipal.resources
+D:\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.Properties.Resources.resources
+D:\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.csproj.GenerateResource.cache
+D:\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.GeneratedMSBuildEditorConfig.editorconfig
+D:\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.AssemblyInfoInputs.cache
+D:\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.AssemblyInfo.cs
+D:\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.csproj.CoreCompileInputs.cache
+D:\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.csproj.Up2Date
+D:\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.dll
+D:\vsHelp\obj\Release\net8.0-windows10.0.22621.0\refint\vsHelp.dll
+D:\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.pdb
+D:\vsHelp\obj\Release\net8.0-windows10.0.22621.0\vsHelp.genruntimeconfig.cache
+D:\vsHelp\obj\Release\net8.0-windows10.0.22621.0\ref\vsHelp.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\vsHelp.exe
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\vsHelp.dll.config
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\vsHelp.deps.json
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\vsHelp.runtimeconfig.json
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\vsHelp.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\vsHelp.pdb
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraCharts.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Charts.v24.1.Core.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.CodeParser.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Data.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Data.Desktop.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.DataAccess.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.DataAccess.v24.1.UI.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.DataVisualization.v24.1.Core.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Diagram.v24.1.Core.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Drawing.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraGauges.v24.1.Core.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Images.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Map.v24.1.Core.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Mvvm.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Office.v24.1.Core.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Pdf.v24.1.Core.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Pdf.v24.1.Drawing.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.PivotGrid.v24.1.Core.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Printing.v24.1.Core.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraReports.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.RichEdit.v24.1.Core.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.RichEdit.v24.1.Export.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraScheduler.v24.1.Core.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraScheduler.v24.1.Core.Desktop.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Sparkline.v24.1.Core.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.SpellChecker.v24.1.Core.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Spreadsheet.v24.1.Core.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraTreeMap.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.TreeMap.v24.1.Core.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Utils.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Utils.v24.1.UI.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraNavBar.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraWizard.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraCharts.v24.1.Extensions.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraCharts.v24.1.UI.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraCharts.v24.1.Wizard.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraDiagram.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraDialogs.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Dialogs.v24.1.Core.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraGantt.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraGauges.v24.1.Presets.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraGauges.v24.1.Win.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraGrid.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraMap.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraBars.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraEditors.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraLayout.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraPdfViewer.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraPivotGrid.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraPrinting.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraReports.v24.1.Extensions.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraRichEdit.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraScheduler.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraScheduler.v24.1.Extensions.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraScheduler.v24.1.Reporting.Extensions.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraScheduler.v24.1.Reporting.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraSpellChecker.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraSpreadsheet.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraTreeList.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraTreeMap.v24.1.UI.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.XtraVerticalGrid.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\DevExpress.Xpo.v24.1.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\Microsoft.Toolkit.Uwp.Notifications.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\MySqlConnector.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\SharpCompress.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\System.Data.SqlClient.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\System.ServiceModel.Http.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\System.ServiceModel.NetFramingBase.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\System.ServiceModel.NetTcp.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\System.ServiceModel.Primitives.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\ZstdSharp.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\cs\System.ServiceModel.Http.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\de\System.ServiceModel.Http.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\es\System.ServiceModel.Http.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\fr\System.ServiceModel.Http.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\it\System.ServiceModel.Http.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\ja\System.ServiceModel.Http.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\ko\System.ServiceModel.Http.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\pl\System.ServiceModel.Http.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\pt-BR\System.ServiceModel.Http.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\ru\System.ServiceModel.Http.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\tr\System.ServiceModel.Http.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\zh-Hans\System.ServiceModel.Http.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\zh-Hant\System.ServiceModel.Http.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\cs\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\de\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\es\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\fr\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\it\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\ja\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\ko\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\pl\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\pt-BR\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\ru\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\tr\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\zh-Hans\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\zh-Hant\System.ServiceModel.NetFramingBase.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\cs\System.ServiceModel.NetTcp.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\de\System.ServiceModel.NetTcp.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\es\System.ServiceModel.NetTcp.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\fr\System.ServiceModel.NetTcp.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\it\System.ServiceModel.NetTcp.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\ja\System.ServiceModel.NetTcp.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\ko\System.ServiceModel.NetTcp.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\pl\System.ServiceModel.NetTcp.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\pt-BR\System.ServiceModel.NetTcp.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\ru\System.ServiceModel.NetTcp.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\tr\System.ServiceModel.NetTcp.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\zh-Hans\System.ServiceModel.NetTcp.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\zh-Hant\System.ServiceModel.NetTcp.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\cs\System.ServiceModel.Primitives.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\de\System.ServiceModel.Primitives.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\es\System.ServiceModel.Primitives.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\fr\System.ServiceModel.Primitives.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\it\System.ServiceModel.Primitives.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\ja\System.ServiceModel.Primitives.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\ko\System.ServiceModel.Primitives.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\pl\System.ServiceModel.Primitives.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\pt-BR\System.ServiceModel.Primitives.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\ru\System.ServiceModel.Primitives.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\tr\System.ServiceModel.Primitives.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\zh-Hans\System.ServiceModel.Primitives.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\zh-Hant\System.ServiceModel.Primitives.resources.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\runtimes\win-arm64\native\sni.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\runtimes\win-x64\native\sni.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\runtimes\win-x86\native\sni.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\Microsoft.Windows.SDK.NET.dll
+C:\Users\User\Videos\vsHelp Default\bin\Release\net8.0-windows10.0.22621.0\WinRT.Runtime.dll
+C:\Users\User\Videos\vsHelp Default\obj\Release\net8.0-windows10.0.22621.0\vsHelp.csproj.AssemblyReference.cache
+C:\Users\User\Videos\vsHelp Default\obj\Release\net8.0-windows10.0.22621.0\vsHelp.frmPrincipal.resources
+C:\Users\User\Videos\vsHelp Default\obj\Release\net8.0-windows10.0.22621.0\vsHelp.Properties.Resources.resources
+C:\Users\User\Videos\vsHelp Default\obj\Release\net8.0-windows10.0.22621.0\vsHelp.csproj.GenerateResource.cache
+C:\Users\User\Videos\vsHelp Default\obj\Release\net8.0-windows10.0.22621.0\vsHelp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Videos\vsHelp Default\obj\Release\net8.0-windows10.0.22621.0\vsHelp.AssemblyInfoInputs.cache
+C:\Users\User\Videos\vsHelp Default\obj\Release\net8.0-windows10.0.22621.0\vsHelp.AssemblyInfo.cs
+C:\Users\User\Videos\vsHelp Default\obj\Release\net8.0-windows10.0.22621.0\vsHelp.csproj.CoreCompileInputs.cache
+C:\Users\User\Videos\vsHelp Default\obj\Release\net8.0-windows10.0.22621.0\vsHelp.csproj.Up2Date
+C:\Users\User\Videos\vsHelp Default\obj\Release\net8.0-windows10.0.22621.0\vsHelp.dll
+C:\Users\User\Videos\vsHelp Default\obj\Release\net8.0-windows10.0.22621.0\refint\vsHelp.dll
+C:\Users\User\Videos\vsHelp Default\obj\Release\net8.0-windows10.0.22621.0\vsHelp.pdb
+C:\Users\User\Videos\vsHelp Default\obj\Release\net8.0-windows10.0.22621.0\vsHelp.genruntimeconfig.cache
+C:\Users\User\Videos\vsHelp Default\obj\Release\net8.0-windows10.0.22621.0\ref\vsHelp.dll
