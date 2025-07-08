@@ -144,5 +144,140 @@ namespace vsHelp.Classes
 
             return commandCount;
         }
+
+        private static void CopyDirectory(string sourceDir, string destinationDir, bool recursive)
+        {
+            // Get information about the source directory
+            var dir = new DirectoryInfo(sourceDir);
+
+            // Check if the source directory exists
+            if (!dir.Exists)
+                throw new DirectoryNotFoundException($"Source directory not found: {dir.FullName}");
+
+            // Cache directories before we start copying
+            DirectoryInfo[] dirs = dir.GetDirectories();
+
+            // Create the destination directory if it doesn't exist
+            Directory.CreateDirectory(destinationDir);
+
+            // Get the files in the source directory and copy to the destination directory
+            foreach (FileInfo file in dir.GetFiles())
+            {
+                string targetFilePath = Path.Combine(destinationDir, file.Name);
+                file.CopyTo(targetFilePath);
+            }
+
+            // If recursive and copying subdirectories, copy them and their contents to new location
+            if (recursive)
+            {
+                foreach (DirectoryInfo subDir in dirs)
+                {
+                    string newDestinationDir = Path.Combine(destinationDir, subDir.Name);
+                    CopyDirectory(subDir.FullName, newDestinationDir, true);
+                }
+            }
+        }
+
+        public static string CriarPacoteDeInstalacao(List<DevExpress.XtraEditors.CheckEdit> checkBoxes, bool copiarFull, bool copiarRelease, string versaoFull, string versaoRelease)
+        {
+            System.Diagnostics.Debug.WriteLine("Iniciando CriarPacoteDeInstalacao...");
+            string tempPath = Path.Combine(Path.GetTempPath(), "vsHelp_Installers");
+            try
+            {
+                Directory.CreateDirectory(tempPath);
+                System.Diagnostics.Debug.WriteLine($"Diretório temporário criado: {tempPath}");
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"Erro ao criar diretório temporário {tempPath}: {ex.Message}");
+                return null;
+            }
+
+            var instaladores = new Dictionary<string, string>
+            {
+                { "checkBox2", "Crystal10.exe" },
+                { "checkBox6", "Edit Pad Pro 7.msi" },
+                { "checkBox1", "Fontes" },
+                { "checkBox5", "mariadb-11.4.4-winx64.msi" },
+                { "checkBox7", "visualsoftware_suporteremoto.exe" }
+            };
+
+            string caminhoInstaladores = @"\\10.1.1.110\Temp_Didi\Instaladores Implantacao";
+
+            if (!Directory.Exists(caminhoInstaladores))
+            {
+                System.Diagnostics.Debug.WriteLine($"Erro: Caminho de instaladores não acessível: {caminhoInstaladores}");
+                return null;
+            }
+            System.Diagnostics.Debug.WriteLine($"Caminho de instaladores acessível: {caminhoInstaladores}");
+
+            foreach (var cb in checkBoxes.Where(c => c.Checked && instaladores.ContainsKey(c.Name)))
+            {
+                string arquivo = instaladores[cb.Name];
+                string origem = Path.Combine(caminhoInstaladores, arquivo);
+                string destino = Path.Combine(tempPath, arquivo);
+                System.Diagnostics.Debug.WriteLine($"Tentando copiar: {origem} para {destino}");
+                try
+                {
+                    if (arquivo == "Fontes") // Special handling for "Fontes" folder
+                    {
+                        CopyDirectory(origem, destino, true);
+                    }
+                    else
+                    {
+                        File.Copy(origem, destino, true);
+                    }
+                    System.Diagnostics.Debug.WriteLine($"Copiado com sucesso: {arquivo}");
+                }
+                catch (Exception ex)
+                {
+                    System.Diagnostics.Debug.WriteLine($"Erro ao copiar {arquivo}: {ex.Message}");
+                    return null; 
+                }
+            }
+
+            if (copiarFull)
+            {
+                System.Diagnostics.Debug.WriteLine("Copiando versão Full...");
+                CopiarVersaoParaTemp(versaoFull, tempPath);
+            }
+            if (copiarRelease)
+            {
+                System.Diagnostics.Debug.WriteLine("Copiando versão Release...");
+                CopiarVersaoParaTemp(versaoRelease, tempPath);
+            }
+
+            string arquivoZip = Path.Combine(Path.GetTempPath(), $"PacoteInstalacao_{DateTime.Now:yyyyMMdd_HHmmss}.zip");
+            System.Diagnostics.Debug.WriteLine($"Tentando compactar pasta: {tempPath} para {arquivoZip}");
+            string resultado = Winrar.CompactarPasta(tempPath, arquivoZip);
+            System.Diagnostics.Debug.WriteLine($"Resultado da compactação: {resultado ?? "Falha"}");
+
+            if (resultado == null)
+            {
+                System.Diagnostics.Debug.WriteLine("Compactação falhou. Deletando diretório temporário.");
+                Directory.Delete(tempPath, true);
+                return null;
+            }
+
+            System.Diagnostics.Debug.WriteLine("Compactação bem-sucedida. Deletando diretório temporário.");
+            Directory.Delete(tempPath, true);
+            return resultado;
+        }
+
+        private static void CopiarVersaoParaTemp(string arquivo, string tempPath)
+        {
+            if (string.IsNullOrEmpty(arquivo) || arquivo.Contains("não encontrada")) return;
+
+            string servidor = "\\\\10.1.1.110\\Arquivos\\Atualizacoes\\MyCommerce\\" + arquivo;
+            string destino = Path.Combine(tempPath, arquivo);
+            try
+            {
+                File.Copy(servidor, destino, true);
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"Erro ao copiar a versão {arquivo}: {ex.Message}");
+            }
+        }
     }
 }

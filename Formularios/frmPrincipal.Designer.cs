@@ -29,9 +29,21 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
             fccPrincipal = new DevExpress.XtraEditors.DirectXFormContainerControl();
             tcPrincipal = new DevExpress.XtraTab.XtraTabControl();
+            tpInstalacoes = new DevExpress.XtraTab.XtraTabPage();
+            lblVersaoFullIns = new DevExpress.XtraEditors.LabelControl();
+            lblVersaoRealeseIns = new DevExpress.XtraEditors.LabelControl();
+            button1 = new DevExpress.XtraEditors.SimpleButton();
+            checkBox7 = new DevExpress.XtraEditors.CheckEdit();
+            checkBox6 = new DevExpress.XtraEditors.CheckEdit();
+            checkBox5 = new DevExpress.XtraEditors.CheckEdit();
+            checkBox4 = new DevExpress.XtraEditors.CheckEdit();
+            checkBox3 = new DevExpress.XtraEditors.CheckEdit();
+            checkBox2 = new DevExpress.XtraEditors.CheckEdit();
+            checkBox1 = new DevExpress.XtraEditors.CheckEdit();
             tpRestaurarBanco = new DevExpress.XtraTab.XtraTabPage();
             lblProgresso = new DevExpress.XtraEditors.LabelControl();
             pbProgressoRestaura = new DevExpress.XtraEditors.ProgressBarControl();
@@ -57,17 +69,6 @@
             labelControl3 = new DevExpress.XtraEditors.LabelControl();
             labelControl2 = new DevExpress.XtraEditors.LabelControl();
             labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            tpInstalacoes = new DevExpress.XtraTab.XtraTabPage();
-            lblVersaoFullIns = new DevExpress.XtraEditors.LabelControl();
-            lblVersaoRealeseIns = new DevExpress.XtraEditors.LabelControl();
-            button1 = new System.Windows.Forms.Button();
-            checkBox7 = new System.Windows.Forms.CheckBox();
-            checkBox6 = new System.Windows.Forms.CheckBox();
-            checkBox5 = new System.Windows.Forms.CheckBox();
-            checkBox4 = new System.Windows.Forms.CheckBox();
-            checkBox3 = new System.Windows.Forms.CheckBox();
-            checkBox2 = new System.Windows.Forms.CheckBox();
-            checkBox1 = new System.Windows.Forms.CheckBox();
             gcConexao = new DevExpress.XtraEditors.GroupControl();
             txtBanco = new DevExpress.XtraEditors.TextEdit();
             lblBanco = new DevExpress.XtraEditors.LabelControl();
@@ -88,6 +89,14 @@
             fccPrincipal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)tcPrincipal).BeginInit();
             tcPrincipal.SuspendLayout();
+            tpInstalacoes.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)checkBox7.Properties).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)checkBox6.Properties).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)checkBox5.Properties).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)checkBox4.Properties).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)checkBox3.Properties).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)checkBox2.Properties).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)checkBox1.Properties).BeginInit();
             tpRestaurarBanco.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pbProgressoRestaura.Properties).BeginInit();
             ((System.ComponentModel.ISupportInitialize)txtCaminhoBackup.Properties).BeginInit();
@@ -100,7 +109,6 @@
             ((System.ComponentModel.ISupportInitialize)cbSenhaSupervisor.Properties).BeginInit();
             ((System.ComponentModel.ISupportInitialize)cbSenhaUsuario.Properties).BeginInit();
             tpVersoes.SuspendLayout();
-            tpInstalacoes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)gcConexao).BeginInit();
             gcConexao.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)txtBanco.Properties).BeginInit();
@@ -136,6 +144,114 @@
             tcPrincipal.TabIndex = 4;
             tcPrincipal.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] { tpRestaurarBanco, tpUpdates, tpVersoes, tpInstalacoes });
             tcPrincipal.SelectedPageChanged += tcPrincipal_SelectedPageChanged;
+            // 
+            // tpInstalacoes
+            // 
+            tpInstalacoes.Controls.Add(lblVersaoFullIns);
+            tpInstalacoes.Controls.Add(lblVersaoRealeseIns);
+            tpInstalacoes.Controls.Add(button1);
+            tpInstalacoes.Controls.Add(checkBox7);
+            tpInstalacoes.Controls.Add(checkBox6);
+            tpInstalacoes.Controls.Add(checkBox5);
+            tpInstalacoes.Controls.Add(checkBox4);
+            tpInstalacoes.Controls.Add(checkBox3);
+            tpInstalacoes.Controls.Add(checkBox2);
+            tpInstalacoes.Controls.Add(checkBox1);
+            tpInstalacoes.ImageOptions.Image = (System.Drawing.Image)resources.GetObject("tpInstalacoes.ImageOptions.Image");
+            tpInstalacoes.Name = "tpInstalacoes";
+            tpInstalacoes.Size = new System.Drawing.Size(552, 229);
+            tpInstalacoes.Text = "&Instalações";
+            tpInstalacoes.Paint += tpInstalacoes_Paint;
+            // 
+            // lblVersaoFullIns
+            // 
+            lblVersaoFullIns.Location = new System.Drawing.Point(279, 53);
+            lblVersaoFullIns.Name = "lblVersaoFullIns";
+            lblVersaoFullIns.Size = new System.Drawing.Size(116, 13);
+            lblVersaoFullIns.TabIndex = 10;
+            lblVersaoFullIns.Text = "Versão não encontrada!";
+            lblVersaoFullIns.Click += lblVersaoFullIns_Click;
+            // 
+            // lblVersaoRealeseIns
+            // 
+            lblVersaoRealeseIns.Location = new System.Drawing.Point(279, 30);
+            lblVersaoRealeseIns.Name = "lblVersaoRealeseIns";
+            lblVersaoRealeseIns.Size = new System.Drawing.Size(116, 13);
+            lblVersaoRealeseIns.TabIndex = 9;
+            lblVersaoRealeseIns.Text = "Versão não encontrada!";
+            lblVersaoRealeseIns.Click += lblVersaoRealeseIns_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new System.Drawing.Point(204, 186);
+            button1.Name = "button1";
+            button1.Size = new System.Drawing.Size(132, 28);
+            button1.TabIndex = 7;
+            button1.Text = "Gerar Link";
+            button1.Click += button1_Click;
+            // 
+            // checkBox7
+            // 
+            checkBox7.Location = new System.Drawing.Point(57, 122);
+            checkBox7.Name = "checkBox7";
+            checkBox7.Properties.Caption = "RustDesk";
+            checkBox7.Size = new System.Drawing.Size(71, 20);
+            checkBox7.TabIndex = 6;
+            checkBox7.CheckedChanged += checkBox7_CheckedChanged;
+            // 
+            // checkBox6
+            // 
+            checkBox6.Location = new System.Drawing.Point(57, 99);
+            checkBox6.Name = "checkBox6";
+            checkBox6.Properties.Caption = "EditPadPro";
+            checkBox6.Size = new System.Drawing.Size(78, 20);
+            checkBox6.TabIndex = 5;
+            checkBox6.CheckedChanged += checkBox6_CheckedChanged;
+            // 
+            // checkBox5
+            // 
+            checkBox5.Location = new System.Drawing.Point(57, 145);
+            checkBox5.Name = "checkBox5";
+            checkBox5.Properties.Caption = "MariaDB";
+            checkBox5.Size = new System.Drawing.Size(65, 20);
+            checkBox5.TabIndex = 4;
+            checkBox5.CheckedChanged += checkBox5_CheckedChanged;
+            // 
+            // checkBox4
+            // 
+            checkBox4.Location = new System.Drawing.Point(57, 30);
+            checkBox4.Name = "checkBox4";
+            checkBox4.Properties.Caption = "MyCommerce Versão";
+            checkBox4.Size = new System.Drawing.Size(126, 20);
+            checkBox4.TabIndex = 3;
+            checkBox4.CheckedChanged += checkBox4_CheckedChanged;
+            // 
+            // checkBox3
+            // 
+            checkBox3.Location = new System.Drawing.Point(57, 53);
+            checkBox3.Name = "checkBox3";
+            checkBox3.Properties.Caption = "MyCommerce Full";
+            checkBox3.Size = new System.Drawing.Size(109, 20);
+            checkBox3.TabIndex = 2;
+            checkBox3.CheckedChanged += checkBox3_CheckedChanged;
+            // 
+            // checkBox2
+            // 
+            checkBox2.Location = new System.Drawing.Point(57, 76);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Properties.Caption = "Crystal Reports";
+            checkBox2.Size = new System.Drawing.Size(101, 20);
+            checkBox2.TabIndex = 1;
+            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
+            // 
+            // checkBox1
+            // 
+            checkBox1.Location = new System.Drawing.Point(57, 168);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Properties.Caption = "Fontes";
+            checkBox1.Size = new System.Drawing.Size(59, 20);
+            checkBox1.TabIndex = 0;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // tpRestaurarBanco
             // 
@@ -386,119 +502,6 @@
             labelControl1.TabIndex = 0;
             labelControl1.Text = "Última versão FULL encontrada";
             // 
-            // tpInstalacoes
-            // 
-            tpInstalacoes.Controls.Add(lblVersaoFullIns);
-            tpInstalacoes.Controls.Add(lblVersaoRealeseIns);
-            tpInstalacoes.Controls.Add(button1);
-            tpInstalacoes.Controls.Add(checkBox7);
-            tpInstalacoes.Controls.Add(checkBox6);
-            tpInstalacoes.Controls.Add(checkBox5);
-            tpInstalacoes.Controls.Add(checkBox4);
-            tpInstalacoes.Controls.Add(checkBox3);
-            tpInstalacoes.Controls.Add(checkBox2);
-            tpInstalacoes.Controls.Add(checkBox1);
-            tpInstalacoes.ImageOptions.Image = (System.Drawing.Image)resources.GetObject("tpInstalacoes.ImageOptions.Image");
-            tpInstalacoes.Name = "tpInstalacoes";
-            tpInstalacoes.Size = new System.Drawing.Size(552, 229);
-            tpInstalacoes.Text = "&Instalações";
-            tpInstalacoes.Paint += tpInstalacoes_Paint;
-            // 
-            // lblVersaoFullIns
-            // 
-            lblVersaoFullIns.Location = new System.Drawing.Point(279, 53);
-            lblVersaoFullIns.Name = "lblVersaoFullIns";
-            lblVersaoFullIns.Size = new System.Drawing.Size(116, 13);
-            lblVersaoFullIns.TabIndex = 10;
-            lblVersaoFullIns.Text = "Versão não encontrada!";
-            // 
-            // lblVersaoRealeseIns
-            // 
-            lblVersaoRealeseIns.Location = new System.Drawing.Point(279, 30);
-            lblVersaoRealeseIns.Name = "lblVersaoRealeseIns";
-            lblVersaoRealeseIns.Size = new System.Drawing.Size(116, 13);
-            lblVersaoRealeseIns.TabIndex = 9;
-            lblVersaoRealeseIns.Text = "Versão não encontrada!";
-            // 
-            // button1
-            // 
-            button1.Location = new System.Drawing.Point(204, 186);
-            button1.Name = "button1";
-            button1.Size = new System.Drawing.Size(132, 28);
-            button1.TabIndex = 7;
-            button1.Text = "Gerar Link";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox7
-            // 
-            checkBox7.AutoSize = true;
-            checkBox7.Location = new System.Drawing.Point(57, 122);
-            checkBox7.Name = "checkBox7";
-            checkBox7.Size = new System.Drawing.Size(71, 17);
-            checkBox7.TabIndex = 6;
-            checkBox7.Text = "RustDesk";
-            checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            checkBox6.AutoSize = true;
-            checkBox6.Location = new System.Drawing.Point(57, 99);
-            checkBox6.Name = "checkBox6";
-            checkBox6.Size = new System.Drawing.Size(78, 17);
-            checkBox6.TabIndex = 5;
-            checkBox6.Text = "EditPadPro";
-            checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox5
-            // 
-            checkBox5.AutoSize = true;
-            checkBox5.Location = new System.Drawing.Point(57, 145);
-            checkBox5.Name = "checkBox5";
-            checkBox5.Size = new System.Drawing.Size(65, 17);
-            checkBox5.TabIndex = 4;
-            checkBox5.Text = "MariaDB";
-            checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            checkBox4.AutoSize = true;
-            checkBox4.Location = new System.Drawing.Point(57, 30);
-            checkBox4.Name = "checkBox4";
-            checkBox4.Size = new System.Drawing.Size(126, 17);
-            checkBox4.TabIndex = 3;
-            checkBox4.Text = "MyCommerce Versão";
-            checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            checkBox3.AutoSize = true;
-            checkBox3.Location = new System.Drawing.Point(57, 53);
-            checkBox3.Name = "checkBox3";
-            checkBox3.Size = new System.Drawing.Size(109, 17);
-            checkBox3.TabIndex = 2;
-            checkBox3.Text = "MyCommerce Full";
-            checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new System.Drawing.Point(57, 76);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new System.Drawing.Size(101, 17);
-            checkBox2.TabIndex = 1;
-            checkBox2.Text = "Crystal Reports";
-            checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new System.Drawing.Point(57, 168);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new System.Drawing.Size(59, 17);
-            checkBox1.TabIndex = 0;
-            checkBox1.Text = "Fontes";
-            checkBox1.UseVisualStyleBackColor = true;
-            // 
             // gcConexao
             // 
             gcConexao.Controls.Add(txtBanco);
@@ -642,7 +645,7 @@
             skinPaletteDropDownButtonItem1.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.DropDown;
             skinPaletteDropDownButtonItem1.Id = 2;
             skinPaletteDropDownButtonItem1.Name = "skinPaletteDropDownButtonItem1";
-            //
+            // 
             // frmPrincipal
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -663,6 +666,15 @@
             fccPrincipal.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)tcPrincipal).EndInit();
             tcPrincipal.ResumeLayout(false);
+            tpInstalacoes.ResumeLayout(false);
+            tpInstalacoes.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)checkBox7.Properties).EndInit();
+            ((System.ComponentModel.ISupportInitialize)checkBox6.Properties).EndInit();
+            ((System.ComponentModel.ISupportInitialize)checkBox5.Properties).EndInit();
+            ((System.ComponentModel.ISupportInitialize)checkBox4.Properties).EndInit();
+            ((System.ComponentModel.ISupportInitialize)checkBox3.Properties).EndInit();
+            ((System.ComponentModel.ISupportInitialize)checkBox2.Properties).EndInit();
+            ((System.ComponentModel.ISupportInitialize)checkBox1.Properties).EndInit();
             tpRestaurarBanco.ResumeLayout(false);
             tpRestaurarBanco.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pbProgressoRestaura.Properties).EndInit();
@@ -677,8 +689,6 @@
             ((System.ComponentModel.ISupportInitialize)cbSenhaUsuario.Properties).EndInit();
             tpVersoes.ResumeLayout(false);
             tpVersoes.PerformLayout();
-            tpInstalacoes.ResumeLayout(false);
-            tpInstalacoes.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)gcConexao).EndInit();
             gcConexao.ResumeLayout(false);
             gcConexao.PerformLayout();
@@ -736,14 +746,14 @@
         private DevExpress.XtraEditors.ProgressBarControl pbProgressoRestaura;
         private DevExpress.XtraEditors.LabelControl lblProgresso;
         private DevExpress.XtraTab.XtraTabPage tpInstalacoes;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.CheckBox checkBox7;
+        private DevExpress.XtraEditors.CheckEdit checkBox5;
+        private DevExpress.XtraEditors.CheckEdit checkBox4;
+        private DevExpress.XtraEditors.CheckEdit checkBox3;
+        private DevExpress.XtraEditors.CheckEdit checkBox2;
+        private DevExpress.XtraEditors.CheckEdit checkBox1;
+        private DevExpress.XtraEditors.CheckEdit checkBox6;
+        private DevExpress.XtraEditors.SimpleButton button1;
+        private DevExpress.XtraEditors.CheckEdit checkBox7;
         private DevExpress.XtraEditors.LabelControl lblVersaoFullIns;
         private DevExpress.XtraEditors.LabelControl lblVersaoRealeseIns;
         private System.Windows.Forms.ToolTip toolTip1;
