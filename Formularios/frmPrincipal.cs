@@ -316,6 +316,17 @@ namespace vsHelp
             }
         }
 
+        private void tpInstalacoes_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void toolTip1_Popup(object sender, PopupEventArgs e)
+        {
+           /// Pode ser colocado no construtor ou no evento Load do formulário
+            toolTip1.Show("Caso o banco não exista, ele será criado!", txtBanco, 0, -40, 3000);
+            toolTip1.Hide(txtBanco);
+        }
 
     }
 }
