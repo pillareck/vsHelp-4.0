@@ -8,6 +8,10 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using SharpCompress.Archives.Zip;
+using SharpCompress.Writers;
+using System.Windows.Forms;
+using DevExpress.XtraEditors;
 
 namespace vsHelp.Classes
 {
@@ -37,6 +41,25 @@ namespace vsHelp.Classes
             }
 
             return caminho;
+        }
+
+        internal static string CompactarPasta(string pastaParaCompactar, string arquivoDeSaida)
+        {
+            try
+            {
+                using (var archive = ZipArchive.Create())
+                {
+                    archive.AddAllFromDirectory(pastaParaCompactar);
+                    var writerOptions = new WriterOptions(CompressionType.Deflate) { LeaveStreamOpen = false };
+                    archive.SaveTo(arquivoDeSaida, writerOptions);
+                }
+                return arquivoDeSaida;
+            }
+            catch (Exception ex)
+            {
+                XtraMessageBox.Show($"Erro ao compactar arquivos: {ex.Message}", "Erro de Compactação", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return null;
+            }
         }
     }
 }
