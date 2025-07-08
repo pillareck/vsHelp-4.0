@@ -642,11 +642,7 @@
             skinPaletteDropDownButtonItem1.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.DropDown;
             skinPaletteDropDownButtonItem1.Id = 2;
             skinPaletteDropDownButtonItem1.Name = "skinPaletteDropDownButtonItem1";
-            // 
-            // toolTip1
-            // 
-            toolTip1.Popup += toolTip1_Popup;
-            // 
+            //
             // frmPrincipal
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
