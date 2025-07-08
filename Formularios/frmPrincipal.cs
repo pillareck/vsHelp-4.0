@@ -27,12 +27,8 @@ namespace vsHelp
             InitializeComponent();
             txtSenha.Properties.PasswordChar = '*';
 
-            ToolTip toolTip = new ToolTip();
-            toolTip.SetToolTip(txtBanco, "Caso o banco não exista, ele será criado!");
-        }
-
-            ToolTip toolTip = new ToolTip();
-            toolTip.SetToolTip(txtBanco, "Caso o banco não exista, ele será criado!");
+            // Configura o ToolTip para o campo txtBanco usando o componente toolTip1 existente.
+            toolTip1.SetToolTip(txtBanco, "Caso o banco não exista, ele será criado!");
         }
 
         private void btnSair_Click(object sender, EventArgs e)
