@@ -31,6 +31,10 @@ namespace vsHelp
             toolTip.SetToolTip(txtBanco, "Caso o banco não exista, ele será criado!");
         }
 
+            ToolTip toolTip = new ToolTip();
+            toolTip.SetToolTip(txtBanco, "Caso o banco não exista, ele será criado!");
+        }
+
         private void btnSair_Click(object sender, EventArgs e)
         {
             Close();

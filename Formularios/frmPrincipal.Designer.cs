@@ -644,7 +644,8 @@
             skinPaletteDropDownButtonItem1.Name = "skinPaletteDropDownButtonItem1";
             // 
             // toolTip1
-            //
+            // 
+            toolTip1.Popup += toolTip1_Popup;
             // 
             // frmPrincipal
             // 
