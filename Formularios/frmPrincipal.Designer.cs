@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
             fccPrincipal = new DevExpress.XtraEditors.DirectXFormContainerControl();
             tcPrincipal = new DevExpress.XtraTab.XtraTabControl();
@@ -131,7 +130,7 @@
             tcPrincipal.Margin = new System.Windows.Forms.Padding(0);
             tcPrincipal.MultiLine = DevExpress.Utils.DefaultBoolean.True;
             tcPrincipal.Name = "tcPrincipal";
-            tcPrincipal.SelectedTabPage = tpRestaurarBanco;
+            tcPrincipal.SelectedTabPage = tpInstalacoes;
             tcPrincipal.ShowTabHeader = DevExpress.Utils.DefaultBoolean.True;
             tcPrincipal.Size = new System.Drawing.Size(709, 231);
             tcPrincipal.TabIndex = 4;
@@ -645,8 +644,7 @@
             skinPaletteDropDownButtonItem1.Name = "skinPaletteDropDownButtonItem1";
             // 
             // toolTip1
-            // 
-            toolTip1.Popup += toolTip1_Popup;
+            //
             // 
             // frmPrincipal
             // 
