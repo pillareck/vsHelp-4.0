@@ -10,4 +10,5 @@
 .bak
 .pyc
 .DS_Store
-desktop.iniclient_secrets.json 
+desktop.ini
+client_secrets.json
