@@ -46,6 +46,7 @@ namespace vsHelp
 
         private void frmNovo_Load(object sender, EventArgs e)
         {
+            tcPrincipal.SelectedTabPage = tpRestaurarBanco;
             AtualizaConexao();
             CarregaOpcoesCQP();
 

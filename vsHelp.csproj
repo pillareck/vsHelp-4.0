@@ -9,7 +9,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\client_secrets.json" />
+    <None Remove="Resources\drive_token.json" />
+    <None Remove="Resources\drive_token.TokenResponse-user" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="Resources\solution_16x16.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\client_secrets.json" />
+    <EmbeddedResource Include="Resources\drive_token.json" />
+    <EmbeddedResource Include="Resources\drive_token.TokenResponse-user" />
   </ItemGroup>
 
   <ItemGroup>

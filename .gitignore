@@ -13,3 +13,5 @@
 desktop.ini
 client_secrets.json
 service_account.json
+drive_token.json
+drive_token.TokenResponse-user

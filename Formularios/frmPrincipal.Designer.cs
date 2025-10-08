@@ -125,7 +125,7 @@
             fccPrincipal.Location = new System.Drawing.Point(1, 31);
             fccPrincipal.Margin = new System.Windows.Forms.Padding(0);
             fccPrincipal.Name = "fccPrincipal";
-            fccPrincipal.Size = new System.Drawing.Size(709, 302);
+            fccPrincipal.Size = new System.Drawing.Size(815, 400);
             fccPrincipal.TabIndex = 0;
             // 
             // tcPrincipal
@@ -139,7 +139,7 @@
             tcPrincipal.Name = "tcPrincipal";
             tcPrincipal.SelectedTabPage = tpInstalacoes;
             tcPrincipal.ShowTabHeader = DevExpress.Utils.DefaultBoolean.True;
-            tcPrincipal.Size = new System.Drawing.Size(709, 231);
+            tcPrincipal.Size = new System.Drawing.Size(815, 329);
             tcPrincipal.TabIndex = 4;
             tcPrincipal.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] { tpRestaurarBanco, tpUpdates, tpVersoes, tpInstalacoes });
             tcPrincipal.SelectedPageChanged += tcPrincipal_SelectedPageChanged;
@@ -158,7 +158,7 @@
             tpInstalacoes.Controls.Add(checkBox1);
             tpInstalacoes.ImageOptions.Image = (System.Drawing.Image)resources.GetObject("tpInstalacoes.ImageOptions.Image");
             tpInstalacoes.Name = "tpInstalacoes";
-            tpInstalacoes.Size = new System.Drawing.Size(552, 229);
+            tpInstalacoes.Size = new System.Drawing.Size(658, 327);
             tpInstalacoes.Text = "&Instalações";
             tpInstalacoes.Paint += tpInstalacoes_Paint;
             // 
@@ -262,14 +262,14 @@
             tpRestaurarBanco.Controls.Add(lblCaminhoBackup);
             tpRestaurarBanco.ImageOptions.Image = Properties.Resources.database_16x16;
             tpRestaurarBanco.Name = "tpRestaurarBanco";
-            tpRestaurarBanco.Size = new System.Drawing.Size(552, 229);
+            tpRestaurarBanco.Size = new System.Drawing.Size(658, 327);
             tpRestaurarBanco.Text = "Restaurar &Backup";
             // 
             // lblProgresso
             // 
             lblProgresso.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             lblProgresso.Appearance.Options.UseFont = true;
-            lblProgresso.Location = new System.Drawing.Point(17, 149);
+            lblProgresso.Location = new System.Drawing.Point(87, 237);
             lblProgresso.Name = "lblProgresso";
             lblProgresso.Size = new System.Drawing.Size(197, 13);
             lblProgresso.TabIndex = 5;
@@ -277,20 +277,18 @@
             // 
             // pbProgressoRestaura
             // 
-            pbProgressoRestaura.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-            pbProgressoRestaura.Location = new System.Drawing.Point(17, 168);
+            pbProgressoRestaura.Location = new System.Drawing.Point(87, 256);
             pbProgressoRestaura.Name = "pbProgressoRestaura";
             pbProgressoRestaura.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            pbProgressoRestaura.Size = new System.Drawing.Size(375, 37);
+            pbProgressoRestaura.Size = new System.Drawing.Size(481, 43);
             pbProgressoRestaura.TabIndex = 4;
             // 
             // btnRestaurar
             // 
-            btnRestaurar.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
             btnRestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
-            btnRestaurar.Location = new System.Drawing.Point(398, 168);
+            btnRestaurar.Location = new System.Drawing.Point(439, 38);
             btnRestaurar.Name = "btnRestaurar";
-            btnRestaurar.Size = new System.Drawing.Size(110, 37);
+            btnRestaurar.Size = new System.Drawing.Size(129, 39);
             btnRestaurar.TabIndex = 12;
             btnRestaurar.Text = "&Restaurar";
             btnRestaurar.Click += btnRestaurar_Click;
@@ -299,7 +297,7 @@
             // 
             btnProcurar.Cursor = System.Windows.Forms.Cursors.Hand;
             btnProcurar.ImageOptions.Image = Properties.Resources.find_16x16;
-            btnProcurar.Location = new System.Drawing.Point(316, 35);
+            btnProcurar.Location = new System.Drawing.Point(350, 48);
             btnProcurar.Name = "btnProcurar";
             btnProcurar.Size = new System.Drawing.Size(20, 20);
             btnProcurar.TabIndex = 11;
@@ -308,7 +306,7 @@
             // txtCaminhoBackup
             // 
             txtCaminhoBackup.EnterMoveNextControl = true;
-            txtCaminhoBackup.Location = new System.Drawing.Point(17, 35);
+            txtCaminhoBackup.Location = new System.Drawing.Point(35, 48);
             txtCaminhoBackup.Name = "txtCaminhoBackup";
             txtCaminhoBackup.Properties.ReadOnly = true;
             txtCaminhoBackup.Size = new System.Drawing.Size(293, 20);
@@ -319,7 +317,7 @@
             // 
             lblCaminhoBackup.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             lblCaminhoBackup.Appearance.Options.UseFont = true;
-            lblCaminhoBackup.Location = new System.Drawing.Point(17, 16);
+            lblCaminhoBackup.Location = new System.Drawing.Point(35, 29);
             lblCaminhoBackup.Name = "lblCaminhoBackup";
             lblCaminhoBackup.Size = new System.Drawing.Size(110, 13);
             lblCaminhoBackup.TabIndex = 0;
@@ -330,7 +328,7 @@
             tpUpdates.Controls.Add(gcHomologacao);
             tpUpdates.ImageOptions.SvgImage = Properties.Resources.update;
             tpUpdates.Name = "tpUpdates";
-            tpUpdates.Size = new System.Drawing.Size(552, 229);
+            tpUpdates.Size = new System.Drawing.Size(658, 327);
             tpUpdates.Text = "&Updates";
             // 
             // gcHomologacao
@@ -346,7 +344,7 @@
             gcHomologacao.GroupStyle = DevExpress.Utils.GroupStyle.Light;
             gcHomologacao.Location = new System.Drawing.Point(18, 6);
             gcHomologacao.Name = "gcHomologacao";
-            gcHomologacao.Size = new System.Drawing.Size(244, 208);
+            gcHomologacao.Size = new System.Drawing.Size(325, 259);
             gcHomologacao.TabIndex = 0;
             gcHomologacao.Text = "Atualizar para Homologação";
             // 
@@ -354,9 +352,9 @@
             // 
             btnAtualizar.Cursor = System.Windows.Forms.Cursors.Hand;
             btnAtualizar.Dock = System.Windows.Forms.DockStyle.Bottom;
-            btnAtualizar.Location = new System.Drawing.Point(2, 174);
+            btnAtualizar.Location = new System.Drawing.Point(2, 225);
             btnAtualizar.Name = "btnAtualizar";
-            btnAtualizar.Size = new System.Drawing.Size(240, 32);
+            btnAtualizar.Size = new System.Drawing.Size(321, 32);
             btnAtualizar.TabIndex = 5;
             btnAtualizar.Text = "&Atualizar";
             btnAtualizar.Click += btnAtualizar_Click;
@@ -414,7 +412,7 @@
             tpVersoes.Controls.Add(labelControl1);
             tpVersoes.ImageOptions.SvgImage = Properties.Resources.insertlistbox;
             tpVersoes.Name = "tpVersoes";
-            tpVersoes.Size = new System.Drawing.Size(552, 229);
+            tpVersoes.Size = new System.Drawing.Size(658, 327);
             tpVersoes.Text = "&Versões MyCommerce";
             // 
             // lblVersaoBuild
@@ -518,23 +516,23 @@
             gcConexao.Location = new System.Drawing.Point(0, 0);
             gcConexao.Margin = new System.Windows.Forms.Padding(0);
             gcConexao.Name = "gcConexao";
-            gcConexao.Size = new System.Drawing.Size(709, 71);
+            gcConexao.Size = new System.Drawing.Size(815, 71);
             gcConexao.TabIndex = 3;
             gcConexao.Text = "Conexão MyCommerce";
             // 
             // txtBanco
             // 
             txtBanco.EnterMoveNextControl = true;
-            txtBanco.Location = new System.Drawing.Point(593, 32);
+            txtBanco.Location = new System.Drawing.Point(653, 32);
             txtBanco.Name = "txtBanco";
-            txtBanco.Size = new System.Drawing.Size(71, 20);
+            txtBanco.Size = new System.Drawing.Size(118, 20);
             txtBanco.TabIndex = 9;
             // 
             // lblBanco
             // 
             lblBanco.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             lblBanco.Appearance.Options.UseFont = true;
-            lblBanco.Location = new System.Drawing.Point(550, 35);
+            lblBanco.Location = new System.Drawing.Point(610, 35);
             lblBanco.Name = "lblBanco";
             lblBanco.Size = new System.Drawing.Size(37, 13);
             lblBanco.TabIndex = 8;
@@ -543,7 +541,7 @@
             // txtSenha
             // 
             txtSenha.EnterMoveNextControl = true;
-            txtSenha.Location = new System.Drawing.Point(470, 32);
+            txtSenha.Location = new System.Drawing.Point(516, 32);
             txtSenha.Name = "txtSenha";
             txtSenha.Size = new System.Drawing.Size(71, 20);
             txtSenha.TabIndex = 7;
@@ -552,7 +550,7 @@
             // 
             lblSenha.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             lblSenha.Appearance.Options.UseFont = true;
-            lblSenha.Location = new System.Drawing.Point(426, 35);
+            lblSenha.Location = new System.Drawing.Point(472, 35);
             lblSenha.Name = "lblSenha";
             lblSenha.Size = new System.Drawing.Size(38, 13);
             lblSenha.TabIndex = 6;
@@ -561,7 +559,7 @@
             // txtUsuario
             // 
             txtUsuario.EnterMoveNextControl = true;
-            txtUsuario.Location = new System.Drawing.Point(346, 32);
+            txtUsuario.Location = new System.Drawing.Point(369, 32);
             txtUsuario.Name = "txtUsuario";
             txtUsuario.Size = new System.Drawing.Size(71, 20);
             txtUsuario.TabIndex = 5;
@@ -570,7 +568,7 @@
             // 
             lblUsuario.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             lblUsuario.Appearance.Options.UseFont = true;
-            lblUsuario.Location = new System.Drawing.Point(294, 35);
+            lblUsuario.Location = new System.Drawing.Point(317, 35);
             lblUsuario.Name = "lblUsuario";
             lblUsuario.Size = new System.Drawing.Size(46, 13);
             lblUsuario.TabIndex = 4;
@@ -579,7 +577,7 @@
             // txtPorta
             // 
             txtPorta.EnterMoveNextControl = true;
-            txtPorta.Location = new System.Drawing.Point(213, 32);
+            txtPorta.Location = new System.Drawing.Point(231, 32);
             txtPorta.Name = "txtPorta";
             txtPorta.Size = new System.Drawing.Size(71, 20);
             txtPorta.TabIndex = 3;
@@ -588,7 +586,7 @@
             // 
             lblPorta.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             lblPorta.Appearance.Options.UseFont = true;
-            lblPorta.Location = new System.Drawing.Point(173, 35);
+            lblPorta.Location = new System.Drawing.Point(191, 35);
             lblPorta.Name = "lblPorta";
             lblPorta.Size = new System.Drawing.Size(34, 13);
             lblPorta.TabIndex = 2;
@@ -651,12 +649,10 @@
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             CancelButton = btnSair;
             ChildControls.Add(fccPrincipal);
-            ClientSize = new System.Drawing.Size(711, 334);
+            ClientSize = new System.Drawing.Size(817, 432);
             IconOptions.Image = Properties.Resources.solution_16x16;
             Links.Add(blciTemas);
-            MaximizeBox = false;
-            MaximumSize = new System.Drawing.Size(711, 334);
-            MinimumSize = new System.Drawing.Size(136, 39);
+            MinimumSize = new System.Drawing.Size(136, 0);
             Name = "frmPrincipal";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "vsHelp";

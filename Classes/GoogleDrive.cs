@@ -14,6 +14,10 @@ using Google.Apis.Services;
 
 
 using Google.Apis.Util.Store;
+using System.Reflection;
+using Google.Apis.Auth.OAuth2.Flows;
+using Google.Apis.Auth.OAuth2.Responses;
+using Google.Apis.Json;
 
 
 
@@ -77,79 +81,439 @@ namespace vsHelp.Classes
 
 
 
-        public static DriveService GetService()
+                        public static DriveService GetService()
 
 
 
-        {
 
 
 
-            UserCredential credential;
+
+                        {
 
 
 
-            using (var stream = new FileStream("client_secrets.json", FileMode.Open, FileAccess.Read))
 
 
 
-            {
+
+                            try
 
 
 
-                string credPath = "token.json";
 
 
 
-                credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
+
+                            {
 
 
 
-                    GoogleClientSecrets.FromStream(stream).Secrets,
 
 
 
-                    Scopes,
+
+                                var assembly = Assembly.GetExecutingAssembly();
 
 
 
-                    "user",
 
 
 
-                    CancellationToken.None,
+
+                                var clientSecretsStream = assembly.GetManifestResourceStream("vsHelp.Resources.client_secrets.json");
 
 
 
-                    new FileDataStore(credPath, true)).Result;
 
 
 
-            }
+
+                                if (clientSecretsStream == null)
 
 
 
-            return new DriveService(new BaseClientService.Initializer()
 
 
 
-            {
+
+                                {
 
 
 
-                HttpClientInitializer = credential,
 
 
 
-                ApplicationName = ApplicationName,
+
+                                    throw new Exception("O recurso 'client_secrets.json' não foi encontrado. Certifique-se de que ele está como 'Embedded Resource'.");
 
 
 
-            });
 
 
 
-        }
+
+                                }
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+                                var tokenStream = assembly.GetManifestResourceStream("vsHelp.Resources.drive_token.json");
+
+
+
+
+
+
+
+                                if (tokenStream == null)
+
+
+
+
+
+
+
+                                {
+
+
+
+
+
+
+
+                                    throw new Exception("O recurso 'drive_token.json' não foi encontrado. Certifique-se de que ele está como 'Embedded Resource'.");
+
+
+
+
+
+
+
+                                }
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+                                var clientSecrets = GoogleClientSecrets.FromStream(clientSecretsStream).Secrets;
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+                                TokenResponse token;
+
+
+
+
+
+
+
+                                using (var reader = new StreamReader(tokenStream))
+
+
+
+
+
+
+
+                                {
+
+
+
+
+
+
+
+                                    var json = reader.ReadToEnd();
+
+
+
+
+
+
+
+                                    token = NewtonsoftJsonSerializer.Instance.Deserialize<TokenResponse>(json);
+
+
+
+
+
+
+
+                                }
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+                                var credential = new UserCredential(
+
+
+
+
+
+
+
+                                    new GoogleAuthorizationCodeFlow(
+
+
+
+
+
+
+
+                                        new GoogleAuthorizationCodeFlow.Initializer
+
+
+
+
+
+
+
+                                        {
+
+
+
+
+
+
+
+                                            ClientSecrets = clientSecrets
+
+
+
+
+
+
+
+                                        }),
+
+
+
+
+
+
+
+                                    "user",
+
+
+
+
+
+
+
+                                    token);
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+                                if (credential.Token.IsExpired(credential.Flow.Clock))
+
+
+
+
+
+
+
+                                {
+
+
+
+
+
+
+
+                                    if (!credential.RefreshTokenAsync(CancellationToken.None).Result)
+
+
+
+
+
+
+
+                                    {
+
+
+
+
+
+
+
+                                        throw new Exception("O token de acesso expirou e não pôde ser atualizado. Gere um novo token.");
+
+
+
+
+
+
+
+                                    }
+
+
+
+
+
+
+
+                                }
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+                                return new DriveService(new BaseClientService.Initializer()
+
+
+
+
+
+
+
+                                {
+
+
+
+
+
+
+
+                                    HttpClientInitializer = credential,
+
+
+
+
+
+
+
+                                    ApplicationName = ApplicationName,
+
+
+
+
+
+
+
+                                });
+
+
+
+
+
+
+
+                            }
+
+
+
+
+
+
+
+                            catch (Exception ex)
+
+
+
+
+
+
+
+                            {
+
+
+
+
+
+
+
+                                MessageBox.Show($"Erro ao obter serviço do Google Drive: {ex.Message}", "Erro de Autenticação", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+
+
+
+
+
+
+                                return null;
+
+
+
+
+
+
+
+                            }
+
+
+
+
+
+
+
+                        }
 
 
 
