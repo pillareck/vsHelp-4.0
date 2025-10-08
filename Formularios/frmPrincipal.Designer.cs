@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
             fccPrincipal = new DevExpress.XtraEditors.DirectXFormContainerControl();
             tcPrincipal = new DevExpress.XtraTab.XtraTabControl();

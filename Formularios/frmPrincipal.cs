@@ -253,8 +253,7 @@ namespace vsHelp
 
         private void btnAtualizar_Click(object sender, EventArgs e)
         {
-            //SalvarConexao();
-            Classes.Conexao.AtualizaConexao();
+            Classes.Conexao.AtualizaConexao(txtServidor.Text, txtPorta.Text, txtUsuario.Text, txtSenha.Text, txtBanco.Text);
             Utils.AtualizarCQP(gcHomologacao.Controls.OfType<CheckEdit>().Where(c => c.Checked).OrderBy(c => c.TabIndex).ToList());
             SalvarOpcoesCQP();
         }
