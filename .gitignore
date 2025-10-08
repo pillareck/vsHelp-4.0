@@ -12,3 +12,4 @@
 .DS_Store
 desktop.ini
 client_secrets.json
+service_account.json
