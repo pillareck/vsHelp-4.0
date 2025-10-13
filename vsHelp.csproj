@@ -12,6 +12,7 @@
     <None Remove="Resources\client_secrets.json" />
     <None Remove="Resources\drive_token.json" />
     <None Remove="Resources\drive_token.TokenResponse-user" />
+    <None Remove="Resources\service_account.json" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +23,7 @@
     <EmbeddedResource Include="Resources\client_secrets.json" />
     <EmbeddedResource Include="Resources\drive_token.json" />
     <EmbeddedResource Include="Resources\drive_token.TokenResponse-user" />
+    <EmbeddedResource Include="Resources\service_account.json" />
   </ItemGroup>
 
   <ItemGroup>
