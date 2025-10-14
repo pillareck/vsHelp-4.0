@@ -180,89 +180,152 @@ namespace vsHelp.Classes
 
         public static string CriarPacoteDeInstalacao(List<DevExpress.XtraEditors.CheckEdit> checkBoxes, bool copiarFull, bool copiarRelease, string versaoFull, string versaoRelease)
         {
+            Notificacao("Criação de Pacote", "Iniciando a criação do pacote de instalação...");
             System.Diagnostics.Debug.WriteLine("Iniciando CriarPacoteDeInstalacao...");
             string tempPath = Path.Combine(Path.GetTempPath(), "vsHelp_Installers");
+            string resultado = null;
+
             try
             {
                 Directory.CreateDirectory(tempPath);
                 System.Diagnostics.Debug.WriteLine($"Diretório temporário criado: {tempPath}");
+
+                var instaladores = new Dictionary<string, string>
+                {
+                    { "checkBox2", "Crystal10.rar" },
+                    { "checkBox6", "Edit Pad Pro 7.rar" },
+                    { "checkBox1", "Fontes.rar" },
+                    { "checkBox5", "mariadb-11.4.4-winx64.rar" },
+                    { "checkBox7", "visualsoftware_suporteremoto.rar" }
+                };
+
+                string caminhoInstaladores = @"\\10.1.1.110\Arquivos\Temp_Didi\Instaladores Implantacao";
+
+                if (!Directory.Exists(caminhoInstaladores))
+                {
+                    System.Diagnostics.Debug.WriteLine($"Erro: Caminho de instaladores não acessível: {caminhoInstaladores}");
+                    return null;
+                }
+                System.Diagnostics.Debug.WriteLine($"Caminho de instaladores acessível: {caminhoInstaladores}");
+
+                foreach (var cb in checkBoxes.Where(c => c.Checked && instaladores.ContainsKey(c.Name)))
+                {
+                    string arquivo = instaladores[cb.Name];
+                    string origem = Path.Combine(caminhoInstaladores, arquivo);
+                    string destino = Path.Combine(tempPath, arquivo);
+                    System.Diagnostics.Debug.WriteLine($"Tentando copiar: {origem} para {destino}");
+                    try
+                    {
+                        if (arquivo == "Fontes")
+                        {
+                            CopyDirectory(origem, destino, true);
+                        }
+                        else
+                        {
+                            File.Copy(origem, destino, true);
+                        }
+                        System.Diagnostics.Debug.WriteLine($"Copiado com sucesso: {arquivo}");
+                    }
+                    catch (Exception ex)
+                    {
+                        System.Diagnostics.Debug.WriteLine($"Erro ao copiar {arquivo}: {ex.Message}");
+                        return null;
+                    }
+                }
+
+                if (copiarFull)
+                {
+                    System.Diagnostics.Debug.WriteLine("Copiando versão Full...");
+                    CopiarVersaoParaTemp(versaoFull, tempPath);
+                }
+                if (copiarRelease)
+                {
+                    System.Diagnostics.Debug.WriteLine("Copiando versão Release...");
+                    CopiarVersaoParaTemp(versaoRelease, tempPath);
+                }
+
+                string arquivoZip = Path.Combine(Path.GetTempPath(), $"PacoteInstalacao_{DateTime.Now:yyyyMMdd_HHmmss}.zip");
+                System.Diagnostics.Debug.WriteLine($"Tentando compactar pasta: {tempPath} para {arquivoZip}");
+                resultado = Winrar.CompactarPasta(tempPath, arquivoZip);
+                System.Diagnostics.Debug.WriteLine($"Resultado da compactação: {resultado ?? "Falha"}");
+
+                if (resultado == null)
+                {
+                    System.Diagnostics.Debug.WriteLine("Compactação falhou.");
+                    return null;
+                }
+
+                System.Diagnostics.Debug.WriteLine("Compactação bem-sucedida. Iniciando upload...");
+                string link = GoogleDrive.UploadFileAndGetPublicLink(resultado, "Pacote de Instaladores");
+
+                if (link != null)
+                {
+                    System.Diagnostics.Debug.WriteLine($"Upload concluído. Link: {link}");
+                    Notificacao("Upload Concluído", "Link copiado para a área de transferência!");
+                    try
+                    {
+                        File.Delete(resultado); // Exclui o arquivo .zip local
+                        System.Diagnostics.Debug.WriteLine($"Arquivo local {resultado} deletado.");
+                    }
+                    catch (Exception ex)
+                    {
+                        System.Diagnostics.Debug.WriteLine($"Erro ao deletar arquivo local {resultado}: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    System.Diagnostics.Debug.WriteLine("Upload para o Google Drive falhou.");
+                }
+
+                return link; // Retorna o link do Google Drive
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine($"Erro ao criar diretório temporário {tempPath}: {ex.Message}");
+                System.Diagnostics.Debug.WriteLine($"Um erro inesperado ocorreu em CriarPacoteDeInstalacao: {ex.Message}");
                 return null;
             }
-
-            var instaladores = new Dictionary<string, string>
+            finally
             {
-                { "checkBox2", "Crystal10.exe" },
-                { "checkBox6", "Edit Pad Pro 7.msi" },
-                { "checkBox1", "Fontes" },
-                { "checkBox5", "mariadb-11.4.4-winx64.msi" },
-                { "checkBox7", "visualsoftware_suporteremoto.exe" }
-            };
-
-            string caminhoInstaladores = @"\\10.1.1.110\Temp_Didi\Instaladores Implantacao";
-
-            if (!Directory.Exists(caminhoInstaladores))
-            {
-                System.Diagnostics.Debug.WriteLine($"Erro: Caminho de instaladores não acessível: {caminhoInstaladores}");
-                return null;
+                System.Diagnostics.Debug.WriteLine("Iniciando limpeza do diretório temporário.");
+                DeleteDirectoryWithRetry(tempPath);
             }
-            System.Diagnostics.Debug.WriteLine($"Caminho de instaladores acessível: {caminhoInstaladores}");
+        }
 
-            foreach (var cb in checkBoxes.Where(c => c.Checked && instaladores.ContainsKey(c.Name)))
+        private static void DeleteDirectoryWithRetry(string path, int retries = 5, int delayMilliseconds = 500)
+        {
+            for (int i = 0; i < retries; i++)
             {
-                string arquivo = instaladores[cb.Name];
-                string origem = Path.Combine(caminhoInstaladores, arquivo);
-                string destino = Path.Combine(tempPath, arquivo);
-                System.Diagnostics.Debug.WriteLine($"Tentando copiar: {origem} para {destino}");
                 try
                 {
-                    if (arquivo == "Fontes") // Special handling for "Fontes" folder
+                    if (Directory.Exists(path))
                     {
-                        CopyDirectory(origem, destino, true);
+                        Directory.Delete(path, true);
+                        System.Diagnostics.Debug.WriteLine($"Diretório {path} deletado com sucesso.");
+                        return; 
                     }
                     else
                     {
-                        File.Copy(origem, destino, true);
+                        System.Diagnostics.Debug.WriteLine($"Diretório {path} não existe. Nada a deletar.");
+                        return; 
                     }
-                    System.Diagnostics.Debug.WriteLine($"Copiado com sucesso: {arquivo}");
+                }
+                catch (IOException ex)
+                {
+                    System.Diagnostics.Debug.WriteLine($"Tentativa {i + 1} falhou ao deletar {path}: {ex.Message}");
+                    if (i < retries - 1)
+                    {
+                        Thread.Sleep(delayMilliseconds);
+                    }
                 }
                 catch (Exception ex)
                 {
-                    System.Diagnostics.Debug.WriteLine($"Erro ao copiar {arquivo}: {ex.Message}");
-                    return null; 
+                    System.Diagnostics.Debug.WriteLine($"Um erro inesperado ocorreu ao deletar {path}: {ex.Message}");
+                    return; 
                 }
             }
-
-            if (copiarFull)
-            {
-                System.Diagnostics.Debug.WriteLine("Copiando versão Full...");
-                CopiarVersaoParaTemp(versaoFull, tempPath);
-            }
-            if (copiarRelease)
-            {
-                System.Diagnostics.Debug.WriteLine("Copiando versão Release...");
-                CopiarVersaoParaTemp(versaoRelease, tempPath);
-            }
-
-            string arquivoZip = Path.Combine(Path.GetTempPath(), $"PacoteInstalacao_{DateTime.Now:yyyyMMdd_HHmmss}.zip");
-            System.Diagnostics.Debug.WriteLine($"Tentando compactar pasta: {tempPath} para {arquivoZip}");
-            string resultado = Winrar.CompactarPasta(tempPath, arquivoZip);
-            System.Diagnostics.Debug.WriteLine($"Resultado da compactação: {resultado ?? "Falha"}");
-
-            if (resultado == null)
-            {
-                System.Diagnostics.Debug.WriteLine("Compactação falhou. Deletando diretório temporário.");
-                Directory.Delete(tempPath, true);
-                return null;
-            }
-
-            System.Diagnostics.Debug.WriteLine("Compactação bem-sucedida. Deletando diretório temporário.");
-            Directory.Delete(tempPath, true);
-            return resultado;
+            System.Diagnostics.Debug.WriteLine($"Não foi possível deletar o diretório {path} após {retries} tentativas.");
         }
+
 
         private static void CopiarVersaoParaTemp(string arquivo, string tempPath)
         {

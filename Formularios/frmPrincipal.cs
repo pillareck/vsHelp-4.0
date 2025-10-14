@@ -46,6 +46,7 @@ namespace vsHelp
 
         private void frmNovo_Load(object sender, EventArgs e)
         {
+            tcPrincipal.SelectedTabPage = tpRestaurarBanco;
             AtualizaConexao();
             CarregaOpcoesCQP();
 
@@ -253,8 +254,7 @@ namespace vsHelp
 
         private void btnAtualizar_Click(object sender, EventArgs e)
         {
-            //SalvarConexao();
-            Classes.Conexao.AtualizaConexao();
+            Classes.Conexao.AtualizaConexao(txtServidor.Text, txtPorta.Text, txtUsuario.Text, txtSenha.Text, txtBanco.Text);
             Utils.AtualizarCQP(gcHomologacao.Controls.OfType<CheckEdit>().Where(c => c.Checked).OrderBy(c => c.TabIndex).ToList());
             SalvarOpcoesCQP();
         }
@@ -428,7 +428,7 @@ namespace vsHelp
         {
             var service = vsHelp.Classes.GoogleDrive.GetService();
 
-            // Define parameters of request.
+            // Define parametros e requisicoes.
             FilesResource.ListRequest listRequest = service.Files.List();
             listRequest.PageSize = 10;
             listRequest.Fields = "nextPageToken, files(id, name)";

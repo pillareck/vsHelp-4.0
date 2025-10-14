@@ -67,6 +67,20 @@ namespace vsHelp.Classes
             instancia = new();
         }
 
+        public static void AtualizaConexao(string ip, string porta, string usuario, string senha, string bancoDeDados)
+        {
+            Ip = ip;
+            Porta = porta;
+            Usuario = usuario;
+            Senha = senha;
+            BancoDeDados = bancoDeDados;
+
+            Properties.Conexao.Default.Senha = senha;
+            Properties.Conexao.Default.Save();
+
+            instancia = new();
+        }
+
         // Adicione estes dois métodos à sua classe Conexao
         public static bool BancoExiste(string servidor, string porta, string usuario, string senha, string nomeBanco)
         {
