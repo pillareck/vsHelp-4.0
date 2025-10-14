@@ -295,7 +295,7 @@ namespace vsHelp
 
         private void tcPrincipal_SelectedPageChanged(object sender, DevExpress.XtraTab.TabPageChangedEventArgs e)
         {
-            if (e.Page == tcPrincipal.TabPages[2]) CarregaVersoes();
+            if (e.Page == tcPrincipal.TabPages[2] || e.Page == tpInstalacoes) CarregaVersoes();
         }
 
         private void CarregaVersoes()
@@ -315,6 +315,7 @@ namespace vsHelp
                 btnVersaoFull.Enabled = false;
                 btnVersaoRelease.Enabled = false;
                 btnVersaoBuild.Enabled = false;
+                button1.Enabled = false;
 
                 return;
             }
@@ -323,6 +324,7 @@ namespace vsHelp
             btnVersaoFull.Enabled = true;
             btnVersaoRelease.Enabled = true;
             btnVersaoBuild.Enabled = true;
+            button1.Enabled = true;
 
             // Continua a lógica normal de carregar versões
             DirectoryInfo diretorio = new DirectoryInfo(caminhoRede);
