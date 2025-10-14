@@ -137,7 +137,7 @@ namespace vsHelp.Classes
 
 
 
-                GoogleClientSecrets clientSecrets;
+                ClientSecrets clientSecrets;
 
 
 

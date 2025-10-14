@@ -256,7 +256,7 @@ namespace vsHelp.Classes
                 }
 
                 System.Diagnostics.Debug.WriteLine("Compactação bem-sucedida. Iniciando upload...");
-                string link = GoogleDrive.UploadFileAndGetPublicLink(resultado, "Pacote de Instaladores");
+                string link = GoogleDrive.UploadFileAndGetPublicLink(resultado);
 
                 if (link != null)
                 {
