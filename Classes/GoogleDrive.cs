@@ -2,73 +2,25 @@
 
 
 using Google.Apis.Auth.OAuth2;
-
-
-
 using Google.Apis.Drive.v3;
-
-
-
 using Google.Apis.Services;
-
-
-
 using Google.Apis.Util.Store;
 using System.Reflection;
 using Google.Apis.Auth.OAuth2.Flows;
 using Google.Apis.Auth.OAuth2.Responses;
 using Google.Apis.Json;
-
-
-
 using System;
-
-
-
 using System.Collections.Generic;
-
-
-
 using System.IO;
-
-
-
 using System.Linq;
-
-
-
 using System.Threading;
-
-
-
 using Google.Apis.Drive.v3.Data;
-
-
-
 using System.Windows.Forms;
 
-
-
-
-
-
-
 namespace vsHelp.Classes
-
-
-
 {
-
-
-
     public class GoogleDrive
-
-
-
     {
-
-
-
         static string[] Scopes = { DriveService.Scope.Drive };
 
 
