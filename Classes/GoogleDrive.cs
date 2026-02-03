@@ -3,15 +3,9 @@
 using Google.Apis.Auth.OAuth2;
 using Google.Apis.Drive.v3;
 using Google.Apis.Services;
-using Google.Apis.Util.Store;
-using System.Reflection;
-using Google.Apis.Auth.OAuth2.Flows;
-using Google.Apis.Auth.OAuth2.Responses;
-using Google.Apis.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Threading;
 using Google.Apis.Drive.v3.Data;
 using System.Windows.Forms;
@@ -25,90 +19,30 @@ namespace vsHelp.Classes
         public static DriveService GetService()
         {
             try
-
             {
-                var assembly = Assembly.GetExecutingAssembly();
+                // O caminho para o seu arquivo JSON da conta de serviço.
+                // Ele deve estar na mesma pasta do executável.
+                string serviceAccountKeyPath = "service_account.json";
 
-                var clientSecretsStream = assembly.GetManifestResourceStream(
-                    "vsHelp.Resources.client_secrets.json");
-
-                if (clientSecretsStream == null)
-
+                if (!System.IO.File.Exists(serviceAccountKeyPath))
                 {
-                    throw new Exception(
-                        "O recurso 'client_secrets.json' não foi encontrado. Certifique-se de que ele está como 'Embedded Resource'.");
+                    throw new Exception($"O arquivo de chave da conta de serviço '{serviceAccountKeyPath}' não foi encontrado. Certifique-se de que a propriedade 'Copy to Output Directory' do arquivo está definida como 'Copy if newer' no Visual Studio.");
                 }
 
-                var tokenStream = assembly.GetManifestResourceStream(
-                    "vsHelp.Resources.drive_token.json");
-
-                if (tokenStream == null)
-
-                {
-                    throw new Exception(
-                        "O recurso 'drive_token.json' não foi encontrado. Certifique-se de que ele está como 'Embedded Resource'.");
-                }
-
-                var clientSecrets =
-                    GoogleClientSecrets.FromStream(clientSecretsStream).Secrets;
-
-                TokenResponse token;
-
-                using (var reader = new StreamReader(tokenStream))
-
-                {
-                    var json = reader.ReadToEnd();
-
-                    token = NewtonsoftJsonSerializer.Instance.Deserialize<TokenResponse>(
-                        json);
-                }
-
-                var credential = new UserCredential(
-
-                    new GoogleAuthorizationCodeFlow(
-
-                        new GoogleAuthorizationCodeFlow.Initializer
-
-                        {
-
-                            ClientSecrets = clientSecrets
-
-                        }),
-
-                    "user",
-
-                    token);
-
-                if (credential.Token.IsExpired(credential.Flow.Clock))
-
-                {
-                    if (!credential.RefreshTokenAsync(CancellationToken.None).Result)
-
-                    {
-                        throw new Exception(
-                            "O token de acesso expirou e não pôde ser atualizado. Gere um novo token.");
-                    }
-                }
+                var credential = GoogleCredential.FromFile(serviceAccountKeyPath)
+                    .CreateScoped(Scopes);
 
                 return new DriveService(new BaseClientService.Initializer()
-
                 {
-
                     HttpClientInitializer = credential,
-
                     ApplicationName = ApplicationName,
-
                 });
-
             }
-
             catch (Exception ex)
-
             {
-                MessageBox.Show($"Erro ao obter serviço do Google Drive: {ex.Message}",
+                MessageBox.Show($"Erro ao obter serviço do Google Drive via Conta de Serviço: {ex.Message}",
                                 "Erro de Autenticação", MessageBoxButtons.OK,
                                 MessageBoxIcon.Error);
-
                 return null;
             }
         }
@@ -122,48 +56,8 @@ namespace vsHelp.Classes
             {
                 var service = GetService();
 
-                // 1. Encontrar ou criar o ID da Pasta
-
-                string folderId = null;
-
-                var folderRequest = service.Files.List();
-
-                folderRequest.Q =
-                    $"mimeType='application/vnd.google-apps.folder' and name='{folderName}' and trashed=false";
-
-                folderRequest.Fields = "files(id)";
-
-                var folderResult = folderRequest.Execute();
-
-                if (folderResult.Files != null && folderResult.Files.Count > 0)
-
-                {
-                    folderId = folderResult.Files[0].Id;
-
-                }
-
-                else
-
-                {
-                    var folderMetadata =
-                        new Google.Apis.Drive.v3.Data.File()
-
-                        {
-
-                            Name = folderName,
-
-                            MimeType = "application/vnd.google-apps.folder"
-
-                        };
-
-                    var createFolderRequest = service.Files.Create(folderMetadata);
-
-                    createFolderRequest.Fields = "id";
-
-                    var folder = createFolderRequest.Execute();
-
-                    folderId = folder.Id;
-                }
+                // 1. USA DIRETAMENTE O ID DA PASTA COMPARTILHADA
+                string folderId = "1o04wX-ZjImZPVNfQMBGzzm4sc_hkkA32";
 
                 // 2. Preparar metadados do arquivo
 
@@ -280,6 +174,7 @@ namespace vsHelp.Classes
                 return null;
             }
         }
+
     }
 
 }

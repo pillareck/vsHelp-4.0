@@ -12,6 +12,7 @@
     <None Remove="Resources\client_secrets.json" />
     <None Remove="Resources\drive_token.json" />
     <None Remove="Resources\drive_token.TokenResponse-user" />
+    <None Remove="service_account.json" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,9 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Resources\client_secrets.json" />
-    <EmbeddedResource Include="Resources\drive_token.json" />
-    <EmbeddedResource Include="Resources\drive_token.TokenResponse-user" />
+    <EmbeddedResource Include="service_account.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
@@ -87,12 +88,6 @@
 
   <ItemGroup>
     <Folder Include="User Controls" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="service_account.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
 
 </Project>
