@@ -8,7 +8,26 @@
     <PackageIcon>solution_16x16.png</PackageIcon>
   </PropertyGroup>
 
+<<<<<<< HEAD
 
+=======
+  <ItemGroup>
+    <None Remove="Resources\client_secrets.json" />
+    <None Remove="Resources\drive_token.json" />
+    <None Remove="Resources\drive_token.TokenResponse-user" />
+    <None Remove="service_account.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\solution_16x16.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="service_account.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+>>>>>>> main
 
   <ItemGroup>
     <PackageReference Include="DevExpress.Win.Design" Version="24.1.3" />
@@ -75,10 +94,13 @@
     <Folder Include="User Controls" />
   </ItemGroup>
 
+<<<<<<< HEAD
   <ItemGroup>
     <None Update="client_secret.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 
+=======
+>>>>>>> main
 </Project>

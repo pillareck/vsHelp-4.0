@@ -1,4 +1,4 @@
-# vsHelp 4.0 - Restaurador de Backups
+# vsHelp - Restaurador de Backups
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
@@ -8,7 +8,7 @@
 
 ## 📝 Descrição do Projeto
 
-O **vsHelp 4.0 - Restaurador de Backups** é uma aplicação desktop desenvolvida em C# com Windows Forms, projetada para simplificar e automatizar o processo de restauração de backups. A ferramenta oferece uma interface intuitiva para gerenciar e restaurar arquivos de backup, com suporte a integração com o Google Drive para backups em nuvem e funcionalidades de descompactação via WinRAR.
+O **vsHelp - Restaurador de Backups** é uma aplicação desktop desenvolvida em C# com Windows Forms, projetada para simplificar e automatizar o processo de restauração de backups. A ferramenta oferece uma interface intuitiva para gerenciar e restaurar arquivos de backup, com suporte a integração com o Google Drive para backups em nuvem e funcionalidades de descompactação via WinRAR.
 
 Este projeto visa fornecer uma solução robusta e fácil de usar para garantir a recuperação eficiente de dados importantes, minimizando o tempo de inatividade e a perda de informações.
 
@@ -34,10 +34,10 @@ Este projeto visa fornecer uma solução robusta e fácil de usar para garantir 
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone https://github.com/seu-usuario/vsHelp-4.0.git
+    git clone https://github.com/seu-usuario/vsHelp.git
     cd vsHelp-4.0
     ```
-    *(Nota: Substitua `https://github.com/seu-usuario/vsHelp-4.0.git` pelo URL real do seu repositório, se aplicável.)*
+    *(Nota: Substitua `https://github.com/seu-usuario/vsHelp.git` pelo URL real do seu repositório, se aplicável.)*
 
 2.  **Abra no Visual Studio:**
     Abra o arquivo de solução `vsHelp.sln` no Visual Studio.

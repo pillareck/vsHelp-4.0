@@ -430,7 +430,7 @@ namespace vsHelp
         {
             var service = vsHelp.Classes.GoogleDrive.GetService();
 
-            // Define parameters of request.
+            // Define parametros e requisicoes.
             FilesResource.ListRequest listRequest = service.Files.List();
             listRequest.PageSize = 10;
             listRequest.Fields = "nextPageToken, files(id, name)";
