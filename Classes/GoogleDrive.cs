@@ -1,13 +1,10 @@
 using Google.Apis.Auth.OAuth2;
-using Google.Apis.Auth.OAuth2.Flows;
-using Google.Apis.Auth.OAuth2.Responses;
 using Google.Apis.Drive.v3;
 using Google.Apis.Services;
-using Newtonsoft.Json;
+using Google.Apis.Util.Store;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Reflection;
 using System.Threading;
 using System.Windows.Forms;
 
@@ -23,41 +20,24 @@ namespace vsHelp.Classes
         {
             try
             {
-                var assembly = Assembly.GetExecutingAssembly();
-                var clientSecretResourceName = "vsHelp.Resources.client_secret.json";
-                var tokenResourceName = "vsHelp.Resources.drive_token.json";
-
-                // 1. Load client secrets
-                ClientSecrets clientSecrets;
-                using (var stream = assembly.GetManifestResourceStream(clientSecretResourceName))
+                var clientSecretPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "client_secret.json");
+                if (!File.Exists(clientSecretPath))
                 {
-                    if (stream == null) throw new Exception($"Recurso '{clientSecretResourceName}' não encontrado.");
-                    clientSecrets = GoogleClientSecrets.FromStream(stream).Secrets;
+                    throw new FileNotFoundException("O arquivo client_secret.json não foi encontrado na pasta do aplicativo.", clientSecretPath);
                 }
 
-                // 2. Load token
-                TokenResponse token;
-                using (var stream = assembly.GetManifestResourceStream(tokenResourceName))
+                UserCredential credential;
+                using (var stream = new FileStream(clientSecretPath, FileMode.Open, FileAccess.Read))
                 {
-                    if (stream == null) throw new Exception($"Recurso '{tokenResourceName}' não encontrado. Siga a Etapa 1 para gerá-lo e incorporá-lo.");
-                    using (var reader = new StreamReader(stream))
-                    {
-                        var json = reader.ReadToEnd();
-                        token = JsonConvert.DeserializeObject<TokenResponse>(json);
-                    }
+                    string credPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "vsHelp", "drive-token.json");
+                    credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
+                        GoogleClientSecrets.FromStream(stream).Secrets,
+                        Scopes,
+                        "user",
+                        CancellationToken.None,
+                        new FileDataStore(credPath, true)).Result;
                 }
 
-                // 3. Create credential
-                var flow = new GoogleAuthorizationCodeFlow(
-                    new GoogleAuthorizationCodeFlow.Initializer
-                    {
-                        ClientSecrets = clientSecrets,
-                        Scopes = Scopes
-                    });
-
-                var credential = new UserCredential(flow, "user", token);
-
-                // 4. Create and return the Drive service
                 return new DriveService(new BaseClientService.Initializer()
                 {
                     HttpClientInitializer = credential,
@@ -119,11 +99,6 @@ namespace vsHelp.Classes
                 {
                     throw new Exception("Não foi possível obter o link público do arquivo.");
                 }
-
-                Thread thread = new Thread(() => Clipboard.SetText(publicLink));
-                thread.SetApartmentState(ApartmentState.STA);
-                thread.Start();
-                thread.Join();
 
                 return publicLink;
             }

@@ -8,19 +8,7 @@
     <PackageIcon>solution_16x16.png</PackageIcon>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="Resources\client_secret.json" />
-    <None Remove="Resources\drive_token.json" />
-  </ItemGroup>
 
-  <ItemGroup>
-    <Content Include="Resources\solution_16x16.ico" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\client_secret.json" />
-    <EmbeddedResource Include="Resources\drive_token.json" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="DevExpress.Win.Design" Version="24.1.3" />
@@ -88,7 +76,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="client_secrets.json">
+    <None Update="client_secret.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
